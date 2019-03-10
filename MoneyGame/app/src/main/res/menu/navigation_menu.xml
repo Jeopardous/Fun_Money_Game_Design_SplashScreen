@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Accounts"
+            android:icon="@drawable/ic_accounts"
+            android:title="Accounts" />
+        <item
+            android:id="@+id/Wallet"
+            android:icon="@drawable/ic_wallet"
+            android:title="Wallet" />
+        <item
+            android:id="@+id/Settings"
+            android:icon="@drawable/ic_settings"
+            android:title="Settings" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share App" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_menu_logout"
+                android:title="Log Out" />
+        </menu>
+    </item>
+
+</menu>

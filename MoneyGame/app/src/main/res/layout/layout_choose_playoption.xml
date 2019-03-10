@@ -1,0 +1,56 @@
+<merge>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="100">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="50">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:elevation="10dp"
+                    android:text="Let's Make Some Money With Fun"
+                    android:textColor="#000"
+                    android:textSize="35dp"
+                    android:textStyle="italic" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="50">
+
+                <Button
+                    android:id="@+id/start_game"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:elevation="10dp"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="25dp"
+                    android:onClick="onStartGame"
+                    android:text="START GAME"
+                    android:background="@drawable/white_rounded_button"
+                    android:textSize="20dp"
+                    android:textStyle="italic" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</merge>
